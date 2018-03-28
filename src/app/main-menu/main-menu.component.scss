@@ -1,0 +1,17 @@
+.menu-link{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.search{
+    padding: 7px 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    font-size: 18px;
+}
+.search:focus{
+    outline: none;
+}

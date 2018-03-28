@@ -1,0 +1,5 @@
+<mat-nav-list>
+  <mat-list-item *ngFor='let item of getCategories()' (click)="categorySelect.next(item.name)">
+    {{item.name}}
+  </mat-list-item>
+</mat-nav-list>

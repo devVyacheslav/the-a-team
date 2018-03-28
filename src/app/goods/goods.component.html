@@ -1,0 +1,9 @@
+<mat-sidenav-container>
+  <mat-sidenav opened mode='side'>
+    <app-good-menu (categorySelect)='selectCategory($event)'></app-good-menu>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-goods-list *ngIf="selectedCategory" [goods]='getGoods()'></app-goods-list>
+  </mat-sidenav-content>
+</mat-sidenav-container>

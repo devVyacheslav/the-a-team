@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('angular-in-action App', () => {
+describe('angular-in-action-store App', () => {
   let page: AppPage;
 
   beforeEach(() => {
